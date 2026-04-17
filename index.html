@@ -1,0 +1,2373 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"Segoe UI Emoji";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Segoe UI Symbol";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-ZA style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html lang=&quot;en&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>&lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;title&gt;Bloom &amp; Co. — Small Business Landing
+Page&lt;/title&gt;</p>
+
+<p class=MsoNormal>&lt;link
+href=&quot;https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap&quot;
+rel=&quot;stylesheet&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;style&gt;</p>
+
+<p class=MsoNormal>  *, *::before, *::after { box-sizing: border-box; margin:
+0; padding: 0; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  :root {</p>
+
+<p class=MsoNormal>    --forest: #1c3a2b;</p>
+
+<p class=MsoNormal>    --forest-dark: #0f2118;</p>
+
+<p class=MsoNormal>    --cream: #f6f0e4;</p>
+
+<p class=MsoNormal>    --cream-deep: #ede5d2;</p>
+
+<p class=MsoNormal>    --gold: #b8913a;</p>
+
+<p class=MsoNormal>    --gold-light: #d4ab5a;</p>
+
+<p class=MsoNormal>    --terracotta: #c4623a;</p>
+
+<p class=MsoNormal>    --text-dark: #1a1a18;</p>
+
+<p class=MsoNormal>    --text-mid: #4a4a42;</p>
+
+<p class=MsoNormal>    --text-muted: #8a8a7a;</p>
+
+<p class=MsoNormal>    --white: #ffffff;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  html { scroll-behavior: smooth; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  body {</p>
+
+<p class=MsoNormal>    font-family: 'DM Sans', sans-serif;</p>
+
+<p class=MsoNormal>    background: var(--cream);</p>
+
+<p class=MsoNormal>    color: var(--text-dark);</p>
+
+<p class=MsoNormal>    overflow-x: hidden;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* GRAIN TEXTURE */</p>
+
+<p class=MsoNormal>  body::before {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    position: fixed;</p>
+
+<p class=MsoNormal>    inset: 0;</p>
+
+<p class=MsoNormal>    background-image: url(&quot;data:image/svg+xml,%3Csvg
+viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter
+id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'
+numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25'
+height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E&quot;);</p>
+
+<p class=MsoNormal>    pointer-events: none;</p>
+
+<p class=MsoNormal>    z-index: 1000;</p>
+
+<p class=MsoNormal>    opacity: 0.5;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* NAV */</p>
+
+<p class=MsoNormal>  nav {</p>
+
+<p class=MsoNormal>    position: fixed;</p>
+
+<p class=MsoNormal>    top: 0;</p>
+
+<p class=MsoNormal>    width: 100%;</p>
+
+<p class=MsoNormal>    z-index: 100;</p>
+
+<p class=MsoNormal>    padding: 1.2rem 5%;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    justify-content: space-between;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    background: rgba(246,240,228,0.85);</p>
+
+<p class=MsoNormal>    backdrop-filter: blur(12px);</p>
+
+<p class=MsoNormal>    border-bottom: 1px solid rgba(184,145,58,0.15);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .nav-logo {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 1.5rem;</p>
+
+<p class=MsoNormal>    color: var(--forest);</p>
+
+<p class=MsoNormal>    letter-spacing: -0.02em;</p>
+
+<p class=MsoNormal>    font-weight: 700;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .nav-logo span { color: var(--gold); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  nav ul {</p>
+
+<p class=MsoNormal>    list-style: none;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    gap: 2.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  nav ul a {</p>
+
+<p class=MsoNormal>    text-decoration: none;</p>
+
+<p class=MsoNormal>    color: var(--text-mid);</p>
+
+<p class=MsoNormal>    font-size: 0.9rem;</p>
+
+<p class=MsoNormal>    font-weight: 400;</p>
+
+<p class=MsoNormal>    letter-spacing: 0.02em;</p>
+
+<p class=MsoNormal>    transition: color 0.3s;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  nav ul a:hover { color: var(--forest); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .nav-cta {</p>
+
+<p class=MsoNormal>    background: var(--forest);</p>
+
+<p class=MsoNormal>    color: var(--cream) !important;</p>
+
+<p class=MsoNormal>    padding: 0.6rem 1.4rem;</p>
+
+<p class=MsoNormal>    border-radius: 2rem;</p>
+
+<p class=MsoNormal>    transition: background 0.3s !important;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .nav-cta:hover { background: var(--forest-dark)
+!important; color: var(--cream) !important; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* HERO */</p>
+
+<p class=MsoNormal>  .hero {</p>
+
+<p class=MsoNormal>    min-height: 100vh;</p>
+
+<p class=MsoNormal>    display: grid;</p>
+
+<p class=MsoNormal>    grid-template-columns: 1fr 1fr;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    padding: 8rem 5% 4rem;</p>
+
+<p class=MsoNormal>    gap: 4rem;</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    overflow: hidden;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero::after {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    position: absolute;</p>
+
+<p class=MsoNormal>    right: -8%;</p>
+
+<p class=MsoNormal>    top: 10%;</p>
+
+<p class=MsoNormal>    width: 55%;</p>
+
+<p class=MsoNormal>    height: 80%;</p>
+
+<p class=MsoNormal>    background: radial-gradient(ellipse at center,
+rgba(196,98,58,0.08) 0%, transparent 70%);</p>
+
+<p class=MsoNormal>    pointer-events: none;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-tag {</p>
+
+<p class=MsoNormal>    display: inline-flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    gap: 0.5rem;</p>
+
+<p class=MsoNormal>    background: rgba(28,58,43,0.08);</p>
+
+<p class=MsoNormal>    color: var(--forest);</p>
+
+<p class=MsoNormal>    font-size: 0.75rem;</p>
+
+<p class=MsoNormal>    font-weight: 500;</p>
+
+<p class=MsoNormal>    letter-spacing: 0.1em;</p>
+
+<p class=MsoNormal>    text-transform: uppercase;</p>
+
+<p class=MsoNormal>    padding: 0.4rem 1rem;</p>
+
+<p class=MsoNormal>    border-radius: 2rem;</p>
+
+<p class=MsoNormal>    margin-bottom: 1.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-tag::before {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    width: 6px;</p>
+
+<p class=MsoNormal>    height: 6px;</p>
+
+<p class=MsoNormal>    background: var(--gold);</p>
+
+<p class=MsoNormal>    border-radius: 50%;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero h1 {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: clamp(2.8rem, 5vw, 4.2rem);</p>
+
+<p class=MsoNormal>    line-height: 1.1;</p>
+
+<p class=MsoNormal>    color: var(--forest-dark);</p>
+
+<p class=MsoNormal>    letter-spacing: -0.02em;</p>
+
+<p class=MsoNormal>    margin-bottom: 1.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero h1 em {</p>
+
+<p class=MsoNormal>    font-style: italic;</p>
+
+<p class=MsoNormal>    color: var(--terracotta);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero p {</p>
+
+<p class=MsoNormal>    font-size: 1.1rem;</p>
+
+<p class=MsoNormal>    color: var(--text-mid);</p>
+
+<p class=MsoNormal>    line-height: 1.8;</p>
+
+<p class=MsoNormal>    max-width: 480px;</p>
+
+<p class=MsoNormal>    margin-bottom: 2.5rem;</p>
+
+<p class=MsoNormal>    font-weight: 300;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-actions {</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    gap: 1rem;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    flex-wrap: wrap;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-primary {</p>
+
+<p class=MsoNormal>    background: var(--forest);</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    padding: 0.9rem 2rem;</p>
+
+<p class=MsoNormal>    border-radius: 0.4rem;</p>
+
+<p class=MsoNormal>    text-decoration: none;</p>
+
+<p class=MsoNormal>    font-size: 0.95rem;</p>
+
+<p class=MsoNormal>    font-weight: 500;</p>
+
+<p class=MsoNormal>    transition: all 0.3s;</p>
+
+<p class=MsoNormal>    border: none;</p>
+
+<p class=MsoNormal>    cursor: pointer;</p>
+
+<p class=MsoNormal>    display: inline-block;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-primary:hover {</p>
+
+<p class=MsoNormal>    background: var(--forest-dark);</p>
+
+<p class=MsoNormal>    transform: translateY(-2px);</p>
+
+<p class=MsoNormal>    box-shadow: 0 8px 24px rgba(28,58,43,0.25);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-secondary {</p>
+
+<p class=MsoNormal>    color: var(--forest);</p>
+
+<p class=MsoNormal>    font-size: 0.95rem;</p>
+
+<p class=MsoNormal>    font-weight: 500;</p>
+
+<p class=MsoNormal>    text-decoration: none;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    gap: 0.4rem;</p>
+
+<p class=MsoNormal>    padding: 0.9rem 0;</p>
+
+<p class=MsoNormal>    transition: gap 0.3s;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-secondary:hover { gap: 0.8rem; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-visual {</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    justify-content: center;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-card-main {</p>
+
+<p class=MsoNormal>    background: var(--white);</p>
+
+<p class=MsoNormal>    border-radius: 1.5rem;</p>
+
+<p class=MsoNormal>    padding: 2.5rem;</p>
+
+<p class=MsoNormal>    width: 100%;</p>
+
+<p class=MsoNormal>    max-width: 400px;</p>
+
+<p class=MsoNormal>    box-shadow: 0 24px 60px rgba(28,58,43,0.12);</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    z-index: 2;</p>
+
+<p class=MsoNormal>    animation: floatUp 6s ease-in-out infinite;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  @keyframes floatUp {</p>
+
+<p class=MsoNormal>    0%, 100% { transform: translateY(0); }</p>
+
+<p class=MsoNormal>    50% { transform: translateY(-12px); }</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-card-icon {</p>
+
+<p class=MsoNormal>    width: 52px;</p>
+
+<p class=MsoNormal>    height: 52px;</p>
+
+<p class=MsoNormal>    background: var(--cream);</p>
+
+<p class=MsoNormal>    border-radius: 1rem;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    justify-content: center;</p>
+
+<p class=MsoNormal>    font-size: 1.5rem;</p>
+
+<p class=MsoNormal>    margin-bottom: 1.2rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-card-main h3 {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 1.2rem;</p>
+
+<p class=MsoNormal>    color: var(--forest-dark);</p>
+
+<p class=MsoNormal>    margin-bottom: 0.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-card-main p {</p>
+
+<p class=MsoNormal>    font-size: 0.9rem;</p>
+
+<p class=MsoNormal>    color: var(--text-muted);</p>
+
+<p class=MsoNormal>    line-height: 1.6;</p>
+
+<p class=MsoNormal>    margin-bottom: 1.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .stat-row {</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    gap: 1rem;</p>
+
+<p class=MsoNormal>    border-top: 1px solid var(--cream-deep);</p>
+
+<p class=MsoNormal>    padding-top: 1.2rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .stat { text-align: center; flex: 1; }</p>
+
+<p class=MsoNormal>  .stat-num {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 1.5rem;</p>
+
+<p class=MsoNormal>    color: var(--forest);</p>
+
+<p class=MsoNormal>    font-weight: 700;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .stat-label { font-size: 0.72rem; color:
+var(--text-muted); margin-top: 2px; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-card-float {</p>
+
+<p class=MsoNormal>    position: absolute;</p>
+
+<p class=MsoNormal>    background: var(--white);</p>
+
+<p class=MsoNormal>    border-radius: 1rem;</p>
+
+<p class=MsoNormal>    padding: 1rem 1.2rem;</p>
+
+<p class=MsoNormal>    box-shadow: 0 12px 32px rgba(28,58,43,0.10);</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    gap: 0.8rem;</p>
+
+<p class=MsoNormal>    font-size: 0.85rem;</p>
+
+<p class=MsoNormal>    animation: floatUp 5s ease-in-out infinite;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-card-float:nth-child(2) {</p>
+
+<p class=MsoNormal>    top: -2rem;</p>
+
+<p class=MsoNormal>    right: -1rem;</p>
+
+<p class=MsoNormal>    animation-delay: 1s;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .hero-card-float:nth-child(3) {</p>
+
+<p class=MsoNormal>    bottom: 2rem;</p>
+
+<p class=MsoNormal>    left: -2rem;</p>
+
+<p class=MsoNormal>    animation-delay: 2.5s;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .float-dot {</p>
+
+<p class=MsoNormal>    width: 36px;</p>
+
+<p class=MsoNormal>    height: 36px;</p>
+
+<p class=MsoNormal>    border-radius: 50%;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    justify-content: center;</p>
+
+<p class=MsoNormal>    font-size: 1rem;</p>
+
+<p class=MsoNormal>    flex-shrink: 0;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .dot-green { background: rgba(28,58,43,0.1); }</p>
+
+<p class=MsoNormal>  .dot-gold { background: rgba(184,145,58,0.12); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .float-text strong { display: block; font-size: 0.85rem;
+color: var(--text-dark); font-weight: 500; }</p>
+
+<p class=MsoNormal>  .float-text span { font-size: 0.75rem; color:
+var(--text-muted); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* SOCIAL PROOF BAR */</p>
+
+<p class=MsoNormal>  .proof-bar {</p>
+
+<p class=MsoNormal>    background: var(--forest);</p>
+
+<p class=MsoNormal>    color: rgba(246,240,228,0.7);</p>
+
+<p class=MsoNormal>    padding: 1.2rem 5%;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    justify-content: center;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    gap: 3rem;</p>
+
+<p class=MsoNormal>    font-size: 0.85rem;</p>
+
+<p class=MsoNormal>    letter-spacing: 0.05em;</p>
+
+<p class=MsoNormal>    flex-wrap: wrap;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .proof-bar strong { color: var(--cream); font-weight: 500;
+}</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .proof-divider {</p>
+
+<p class=MsoNormal>    width: 4px;</p>
+
+<p class=MsoNormal>    height: 4px;</p>
+
+<p class=MsoNormal>    background: var(--gold);</p>
+
+<p class=MsoNormal>    border-radius: 50%;</p>
+
+<p class=MsoNormal>    opacity: 0.5;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* SERVICES */</p>
+
+<p class=MsoNormal>  .services {</p>
+
+<p class=MsoNormal>    padding: 7rem 5%;</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .section-label {</p>
+
+<p class=MsoNormal>    font-size: 0.75rem;</p>
+
+<p class=MsoNormal>    font-weight: 500;</p>
+
+<p class=MsoNormal>    letter-spacing: 0.12em;</p>
+
+<p class=MsoNormal>    text-transform: uppercase;</p>
+
+<p class=MsoNormal>    color: var(--gold);</p>
+
+<p class=MsoNormal>    margin-bottom: 1rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .section-title {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: clamp(2rem, 3.5vw, 2.8rem);</p>
+
+<p class=MsoNormal>    line-height: 1.2;</p>
+
+<p class=MsoNormal>    color: var(--forest-dark);</p>
+
+<p class=MsoNormal>    max-width: 600px;</p>
+
+<p class=MsoNormal>    margin-bottom: 1rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .section-sub {</p>
+
+<p class=MsoNormal>    font-size: 1.05rem;</p>
+
+<p class=MsoNormal>    color: var(--text-mid);</p>
+
+<p class=MsoNormal>    max-width: 520px;</p>
+
+<p class=MsoNormal>    line-height: 1.8;</p>
+
+<p class=MsoNormal>    font-weight: 300;</p>
+
+<p class=MsoNormal>    margin-bottom: 3.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .services-grid {</p>
+
+<p class=MsoNormal>    display: grid;</p>
+
+<p class=MsoNormal>    grid-template-columns: repeat(3, 1fr);</p>
+
+<p class=MsoNormal>    gap: 1.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .service-card {</p>
+
+<p class=MsoNormal>    background: var(--white);</p>
+
+<p class=MsoNormal>    border-radius: 1.2rem;</p>
+
+<p class=MsoNormal>    padding: 2rem;</p>
+
+<p class=MsoNormal>    border: 1px solid rgba(184,145,58,0.1);</p>
+
+<p class=MsoNormal>    transition: all 0.4s;</p>
+
+<p class=MsoNormal>    cursor: default;</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    overflow: hidden;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .service-card::before {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    position: absolute;</p>
+
+<p class=MsoNormal>    bottom: 0;</p>
+
+<p class=MsoNormal>    left: 0;</p>
+
+<p class=MsoNormal>    right: 0;</p>
+
+<p class=MsoNormal>    height: 3px;</p>
+
+<p class=MsoNormal>    background: linear-gradient(90deg, var(--forest),
+var(--gold));</p>
+
+<p class=MsoNormal>    transform: scaleX(0);</p>
+
+<p class=MsoNormal>    transform-origin: left;</p>
+
+<p class=MsoNormal>    transition: transform 0.4s;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .service-card:hover {</p>
+
+<p class=MsoNormal>    transform: translateY(-6px);</p>
+
+<p class=MsoNormal>    box-shadow: 0 20px 50px rgba(28,58,43,0.1);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .service-card:hover::before { transform: scaleX(1); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .service-icon {</p>
+
+<p class=MsoNormal>    font-size: 2rem;</p>
+
+<p class=MsoNormal>    margin-bottom: 1.2rem;</p>
+
+<p class=MsoNormal>    display: block;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .service-card h3 {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 1.2rem;</p>
+
+<p class=MsoNormal>    color: var(--forest-dark);</p>
+
+<p class=MsoNormal>    margin-bottom: 0.7rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .service-card p {</p>
+
+<p class=MsoNormal>    font-size: 0.9rem;</p>
+
+<p class=MsoNormal>    color: var(--text-muted);</p>
+
+<p class=MsoNormal>    line-height: 1.7;</p>
+
+<p class=MsoNormal>    font-weight: 300;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* ABOUT */</p>
+
+<p class=MsoNormal>  .about {</p>
+
+<p class=MsoNormal>    background: var(--forest-dark);</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    padding: 7rem 5%;</p>
+
+<p class=MsoNormal>    display: grid;</p>
+
+<p class=MsoNormal>    grid-template-columns: 1fr 1fr;</p>
+
+<p class=MsoNormal>    gap: 6rem;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    overflow: hidden;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about::before {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    position: absolute;</p>
+
+<p class=MsoNormal>    top: -20%;</p>
+
+<p class=MsoNormal>    right: -10%;</p>
+
+<p class=MsoNormal>    width: 60%;</p>
+
+<p class=MsoNormal>    height: 140%;</p>
+
+<p class=MsoNormal>    background: radial-gradient(ellipse,
+rgba(184,145,58,0.07) 0%, transparent 70%);</p>
+
+<p class=MsoNormal>    pointer-events: none;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about .section-title { color: var(--cream); max-width:
+480px; }</p>
+
+<p class=MsoNormal>  .about .section-label { color: var(--gold-light); }</p>
+
+<p class=MsoNormal>  .about .section-sub { color: rgba(246,240,228,0.65); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about-features {</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    flex-direction: column;</p>
+
+<p class=MsoNormal>    gap: 1.5rem;</p>
+
+<p class=MsoNormal>    margin-top: 2rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .feature-item {</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    gap: 1rem;</p>
+
+<p class=MsoNormal>    align-items: flex-start;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .feature-dot {</p>
+
+<p class=MsoNormal>    width: 28px;</p>
+
+<p class=MsoNormal>    height: 28px;</p>
+
+<p class=MsoNormal>    background: rgba(184,145,58,0.15);</p>
+
+<p class=MsoNormal>    border: 1px solid rgba(184,145,58,0.3);</p>
+
+<p class=MsoNormal>    border-radius: 50%;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    justify-content: center;</p>
+
+<p class=MsoNormal>    flex-shrink: 0;</p>
+
+<p class=MsoNormal>    margin-top: 2px;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .feature-dot::after {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    width: 8px;</p>
+
+<p class=MsoNormal>    height: 8px;</p>
+
+<p class=MsoNormal>    background: var(--gold-light);</p>
+
+<p class=MsoNormal>    border-radius: 50%;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .feature-text strong {</p>
+
+<p class=MsoNormal>    display: block;</p>
+
+<p class=MsoNormal>    font-size: 0.95rem;</p>
+
+<p class=MsoNormal>    font-weight: 500;</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    margin-bottom: 0.3rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .feature-text span {</p>
+
+<p class=MsoNormal>    font-size: 0.875rem;</p>
+
+<p class=MsoNormal>    color: rgba(246,240,228,0.55);</p>
+
+<p class=MsoNormal>    font-weight: 300;</p>
+
+<p class=MsoNormal>    line-height: 1.6;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about-visual-side { position: relative; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about-big-stat {</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    z-index: 2;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .big-number {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 6rem;</p>
+
+<p class=MsoNormal>    font-weight: 700;</p>
+
+<p class=MsoNormal>    color: transparent;</p>
+
+<p class=MsoNormal>    -webkit-text-stroke: 1px rgba(184,145,58,0.5);</p>
+
+<p class=MsoNormal>    line-height: 1;</p>
+
+<p class=MsoNormal>    margin-bottom: 0;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .big-label {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 1.8rem;</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    margin-top: -1rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about-stat-grid {</p>
+
+<p class=MsoNormal>    display: grid;</p>
+
+<p class=MsoNormal>    grid-template-columns: 1fr 1fr;</p>
+
+<p class=MsoNormal>    gap: 1rem;</p>
+
+<p class=MsoNormal>    margin-top: 2.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about-stat-box {</p>
+
+<p class=MsoNormal>    background: rgba(246,240,228,0.05);</p>
+
+<p class=MsoNormal>    border: 1px solid rgba(184,145,58,0.15);</p>
+
+<p class=MsoNormal>    border-radius: 1rem;</p>
+
+<p class=MsoNormal>    padding: 1.4rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about-stat-box .num {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 1.8rem;</p>
+
+<p class=MsoNormal>    color: var(--gold-light);</p>
+
+<p class=MsoNormal>    font-weight: 700;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .about-stat-box .lbl {</p>
+
+<p class=MsoNormal>    font-size: 0.8rem;</p>
+
+<p class=MsoNormal>    color: rgba(246,240,228,0.5);</p>
+
+<p class=MsoNormal>    margin-top: 0.3rem;</p>
+
+<p class=MsoNormal>    font-weight: 300;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* TESTIMONIALS */</p>
+
+<p class=MsoNormal>  .testimonials {</p>
+
+<p class=MsoNormal>    padding: 7rem 5%;</p>
+
+<p class=MsoNormal>    background: var(--cream-deep);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .testi-header {</p>
+
+<p class=MsoNormal>    text-align: center;</p>
+
+<p class=MsoNormal>    margin-bottom: 4rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .testi-header .section-title { margin: 0 auto 1rem;
+text-align: center; }</p>
+
+<p class=MsoNormal>  .testi-header .section-sub { margin: 0 auto; text-align:
+center; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .testi-grid {</p>
+
+<p class=MsoNormal>    display: grid;</p>
+
+<p class=MsoNormal>    grid-template-columns: repeat(3, 1fr);</p>
+
+<p class=MsoNormal>    gap: 1.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .testi-card {</p>
+
+<p class=MsoNormal>    background: var(--white);</p>
+
+<p class=MsoNormal>    border-radius: 1.2rem;</p>
+
+<p class=MsoNormal>    padding: 2rem;</p>
+
+<p class=MsoNormal>    border: 1px solid rgba(184,145,58,0.08);</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .testi-quote {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: 3rem;</p>
+
+<p class=MsoNormal>    color: var(--gold);</p>
+
+<p class=MsoNormal>    line-height: 1;</p>
+
+<p class=MsoNormal>    margin-bottom: 0.5rem;</p>
+
+<p class=MsoNormal>    opacity: 0.6;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .testi-card p {</p>
+
+<p class=MsoNormal>    font-size: 0.95rem;</p>
+
+<p class=MsoNormal>    color: var(--text-mid);</p>
+
+<p class=MsoNormal>    line-height: 1.8;</p>
+
+<p class=MsoNormal>    font-weight: 300;</p>
+
+<p class=MsoNormal>    font-style: italic;</p>
+
+<p class=MsoNormal>    margin-bottom: 1.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .testi-author {</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    gap: 0.8rem;</p>
+
+<p class=MsoNormal>    border-top: 1px solid var(--cream-deep);</p>
+
+<p class=MsoNormal>    padding-top: 1.2rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .author-avatar {</p>
+
+<p class=MsoNormal>    width: 40px;</p>
+
+<p class=MsoNormal>    height: 40px;</p>
+
+<p class=MsoNormal>    border-radius: 50%;</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    justify-content: center;</p>
+
+<p class=MsoNormal>    font-weight: 600;</p>
+
+<p class=MsoNormal>    font-size: 0.8rem;</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    flex-shrink: 0;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .av-green { background: var(--forest); }</p>
+
+<p class=MsoNormal>  .av-gold { background: var(--gold); }</p>
+
+<p class=MsoNormal>  .av-terra { background: var(--terracotta); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .author-info strong { display: block; font-size: 0.9rem;
+color: var(--text-dark); font-weight: 500; }</p>
+
+<p class=MsoNormal>  .author-info span { font-size: 0.78rem; color:
+var(--text-muted); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .stars { color: var(--gold); font-size: 0.85rem;
+margin-bottom: 0.8rem; letter-spacing: 0.1em; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* CTA */</p>
+
+<p class=MsoNormal>  .cta-section {</p>
+
+<p class=MsoNormal>    padding: 7rem 5%;</p>
+
+<p class=MsoNormal>    text-align: center;</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    overflow: hidden;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .cta-section::before {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    position: absolute;</p>
+
+<p class=MsoNormal>    inset: 0;</p>
+
+<p class=MsoNormal>    background: radial-gradient(ellipse at 50% 50%,
+rgba(196,98,58,0.06) 0%, transparent 70%);</p>
+
+<p class=MsoNormal>    pointer-events: none;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .cta-box {</p>
+
+<p class=MsoNormal>    background: var(--forest);</p>
+
+<p class=MsoNormal>    border-radius: 2rem;</p>
+
+<p class=MsoNormal>    padding: 5rem 4rem;</p>
+
+<p class=MsoNormal>    max-width: 800px;</p>
+
+<p class=MsoNormal>    margin: 0 auto;</p>
+
+<p class=MsoNormal>    position: relative;</p>
+
+<p class=MsoNormal>    overflow: hidden;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .cta-box::before {</p>
+
+<p class=MsoNormal>    content: '';</p>
+
+<p class=MsoNormal>    position: absolute;</p>
+
+<p class=MsoNormal>    top: -50%;</p>
+
+<p class=MsoNormal>    right: -20%;</p>
+
+<p class=MsoNormal>    width: 60%;</p>
+
+<p class=MsoNormal>    height: 200%;</p>
+
+<p class=MsoNormal>    background: radial-gradient(ellipse,
+rgba(184,145,58,0.12) 0%, transparent 60%);</p>
+
+<p class=MsoNormal>    pointer-events: none;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .cta-box .section-label { color: var(--gold-light);
+margin-bottom: 1rem; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .cta-box h2 {</p>
+
+<p class=MsoNormal>    font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>    font-size: clamp(2rem, 3.5vw, 2.8rem);</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    margin-bottom: 1rem;</p>
+
+<p class=MsoNormal>    line-height: 1.2;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .cta-box p {</p>
+
+<p class=MsoNormal>    color: rgba(246,240,228,0.65);</p>
+
+<p class=MsoNormal>    font-size: 1.05rem;</p>
+
+<p class=MsoNormal>    max-width: 480px;</p>
+
+<p class=MsoNormal>    margin: 0 auto 2.5rem;</p>
+
+<p class=MsoNormal>    line-height: 1.8;</p>
+
+<p class=MsoNormal>    font-weight: 300;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .cta-actions {</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    gap: 1rem;</p>
+
+<p class=MsoNormal>    justify-content: center;</p>
+
+<p class=MsoNormal>    flex-wrap: wrap;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-cta {</p>
+
+<p class=MsoNormal>    background: var(--gold);</p>
+
+<p class=MsoNormal>    color: var(--forest-dark);</p>
+
+<p class=MsoNormal>    padding: 1rem 2.2rem;</p>
+
+<p class=MsoNormal>    border-radius: 0.4rem;</p>
+
+<p class=MsoNormal>    text-decoration: none;</p>
+
+<p class=MsoNormal>    font-size: 0.95rem;</p>
+
+<p class=MsoNormal>    font-weight: 500;</p>
+
+<p class=MsoNormal>    transition: all 0.3s;</p>
+
+<p class=MsoNormal>    border: none;</p>
+
+<p class=MsoNormal>    cursor: pointer;</p>
+
+<p class=MsoNormal>    display: inline-block;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-cta:hover {</p>
+
+<p class=MsoNormal>    background: var(--gold-light);</p>
+
+<p class=MsoNormal>    transform: translateY(-2px);</p>
+
+<p class=MsoNormal>    box-shadow: 0 8px 24px rgba(184,145,58,0.35);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-outline-cream {</p>
+
+<p class=MsoNormal>    background: transparent;</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    border: 1px solid rgba(246,240,228,0.3);</p>
+
+<p class=MsoNormal>    padding: 1rem 2.2rem;</p>
+
+<p class=MsoNormal>    border-radius: 0.4rem;</p>
+
+<p class=MsoNormal>    text-decoration: none;</p>
+
+<p class=MsoNormal>    font-size: 0.95rem;</p>
+
+<p class=MsoNormal>    font-weight: 400;</p>
+
+<p class=MsoNormal>    transition: all 0.3s;</p>
+
+<p class=MsoNormal>    display: inline-block;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .btn-outline-cream:hover { border-color:
+rgba(246,240,228,0.6); background: rgba(246,240,228,0.06); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* FOOTER */</p>
+
+<p class=MsoNormal>  footer {</p>
+
+<p class=MsoNormal>    background: var(--forest-dark);</p>
+
+<p class=MsoNormal>    color: rgba(246,240,228,0.6);</p>
+
+<p class=MsoNormal>    padding: 4rem 5% 2.5rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .footer-top {</p>
+
+<p class=MsoNormal>    display: grid;</p>
+
+<p class=MsoNormal>    grid-template-columns: 1.5fr 1fr 1fr 1fr;</p>
+
+<p class=MsoNormal>    gap: 3rem;</p>
+
+<p class=MsoNormal>    margin-bottom: 3rem;</p>
+
+<p class=MsoNormal>    border-bottom: 1px solid rgba(246,240,228,0.08);</p>
+
+<p class=MsoNormal>    padding-bottom: 3rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .footer-brand .nav-logo { display: block; margin-bottom:
+1rem; }</p>
+
+<p class=MsoNormal>  .footer-brand p { font-size: 0.875rem; line-height: 1.8;
+font-weight: 300; max-width: 240px; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .footer-col h4 {</p>
+
+<p class=MsoNormal>    color: var(--cream);</p>
+
+<p class=MsoNormal>    font-size: 0.85rem;</p>
+
+<p class=MsoNormal>    font-weight: 500;</p>
+
+<p class=MsoNormal>    letter-spacing: 0.08em;</p>
+
+<p class=MsoNormal>    text-transform: uppercase;</p>
+
+<p class=MsoNormal>    margin-bottom: 1.2rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .footer-col ul { list-style: none; display: flex;
+flex-direction: column; gap: 0.7rem; }</p>
+
+<p class=MsoNormal>  .footer-col ul a { text-decoration: none; color:
+rgba(246,240,228,0.5); font-size: 0.875rem; transition: color 0.3s;
+font-weight: 300; }</p>
+
+<p class=MsoNormal>  .footer-col ul a:hover { color: var(--cream); }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .footer-bottom {</p>
+
+<p class=MsoNormal>    display: flex;</p>
+
+<p class=MsoNormal>    justify-content: space-between;</p>
+
+<p class=MsoNormal>    align-items: center;</p>
+
+<p class=MsoNormal>    font-size: 0.8rem;</p>
+
+<p class=MsoNormal>    flex-wrap: wrap;</p>
+
+<p class=MsoNormal>    gap: 1rem;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .footer-bottom a { color: rgba(246,240,228,0.4);
+text-decoration: none; }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* ANIMATIONS ON SCROLL */</p>
+
+<p class=MsoNormal>  .fade-up {</p>
+
+<p class=MsoNormal>    opacity: 0;</p>
+
+<p class=MsoNormal>    transform: translateY(30px);</p>
+
+<p class=MsoNormal>    transition: opacity 0.7s ease, transform 0.7s ease;</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  .fade-up.visible {</p>
+
+<p class=MsoNormal>    opacity: 1;</p>
+
+<p class=MsoNormal>    transform: translateY(0);</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  /* RESPONSIVE */</p>
+
+<p class=MsoNormal>  @media (max-width: 900px) {</p>
+
+<p class=MsoNormal>    .hero, .about { grid-template-columns: 1fr; gap: 3rem; }</p>
+
+<p class=MsoNormal>    .hero-visual { display: none; }</p>
+
+<p class=MsoNormal>    .services-grid, .testi-grid { grid-template-columns:
+1fr; }</p>
+
+<p class=MsoNormal>    .footer-top { grid-template-columns: 1fr 1fr; }</p>
+
+<p class=MsoNormal>    .proof-bar { gap: 1.5rem; }</p>
+
+<p class=MsoNormal>    .proof-divider { display: none; }</p>
+
+<p class=MsoNormal>  }</p>
+
+<p class=MsoNormal>&lt;/style&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- NAV --&gt;</p>
+
+<p class=MsoNormal>&lt;nav&gt;</p>
+
+<p class=MsoNormal>  &lt;div
+class=&quot;nav-logo&quot;&gt;Bloom&lt;span&gt;&amp;&lt;/span&gt;Co.&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;ul&gt;</p>
+
+<p class=MsoNormal>    &lt;li&gt;&lt;a
+href=&quot;#services&quot;&gt;Services&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>    &lt;li&gt;&lt;a
+href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>    &lt;li&gt;&lt;a
+href=&quot;#testimonials&quot;&gt;Testimonials&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>    &lt;li&gt;&lt;a href=&quot;#contact&quot;
+class=&quot;nav-cta&quot;&gt;Get Started&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>  &lt;/ul&gt;</p>
+
+<p class=MsoNormal>&lt;/nav&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- HERO --&gt;</p>
+
+<p class=MsoNormal>&lt;section class=&quot;hero&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;hero-content&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;hero-tag&quot;&gt;Small Business
+Growth Partner&lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;h1&gt;Helping local &lt;em&gt;businesses&lt;/em&gt;
+thrive &amp;amp; grow&lt;/h1&gt;</p>
+
+<p class=MsoNormal>    &lt;p&gt;We bring strategy, creativity, and execution
+together — so you can focus on what you love while your business takes care of
+itself.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;hero-actions&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;a href=&quot;#contact&quot;
+class=&quot;btn-primary&quot;&gt;Work With Us&lt;/a&gt;</p>
+
+<p class=MsoNormal>      &lt;a href=&quot;#services&quot;
+class=&quot;btn-secondary&quot;&gt;See Our Services &#8594;&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;hero-visual&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;!-- Floating mini card top right --&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;hero-card-float&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;float-dot dot-green&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#128200;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;float-text&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;strong&gt;Revenue Up 42%&lt;/strong&gt;</p>
+
+<p class=MsoNormal>        &lt;span&gt;Since partnering with us&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Main card --&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;hero-card-main&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;hero-card-icon&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#127807;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;h3&gt;Your Business, Reimagined&lt;/h3&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;We've helped 200+ small businesses build
+stronger brands, loyal customers, and sustainable growth.&lt;/p&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;stat-row&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;stat&quot;&gt;&lt;div
+class=&quot;stat-num&quot;&gt;200+&lt;/div&gt;&lt;div
+class=&quot;stat-label&quot;&gt;Clients Served&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;stat&quot;&gt;&lt;div
+class=&quot;stat-num&quot;&gt;98%&lt;/div&gt;&lt;div
+class=&quot;stat-label&quot;&gt;Satisfaction&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;stat&quot;&gt;&lt;div
+class=&quot;stat-num&quot;&gt;8yr&lt;/div&gt;&lt;div
+class=&quot;stat-label&quot;&gt;Experience&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Floating mini card bottom left --&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;hero-card-float&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;float-dot dot-gold&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#11088;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;float-text&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;strong&gt;5.0 Star Rating&lt;/strong&gt;</p>
+
+<p class=MsoNormal>        &lt;span&gt;Across 150+ reviews&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- PROOF BAR --&gt;</p>
+
+<p class=MsoNormal>&lt;div class=&quot;proof-bar&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;span&gt;&lt;strong&gt;200+&lt;/strong&gt; happy
+clients&lt;/span&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;proof-divider&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;span&gt;&lt;strong&gt;8 years&lt;/strong&gt; of
+expertise&lt;/span&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;proof-divider&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;span&gt;&lt;strong&gt;42%&lt;/strong&gt; avg revenue
+increase&lt;/span&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;proof-divider&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;span&gt;&lt;strong&gt;98%&lt;/strong&gt; retention
+rate&lt;/span&gt;</p>
+
+<p class=MsoNormal>&lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- SERVICES --&gt;</p>
+
+<p class=MsoNormal>&lt;section class=&quot;services&quot;
+id=&quot;services&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;section-label&quot;&gt;What We
+Offer&lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;h2 class=&quot;section-title&quot;&gt;Everything your
+business needs to grow&lt;/h2&gt;</p>
+
+<p class=MsoNormal>  &lt;p class=&quot;section-sub&quot;&gt;From brand identity
+to digital marketing, we offer end-to-end solutions designed specifically for
+small and local businesses.&lt;/p&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;services-grid&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;service-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;span class=&quot;service-icon&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#127912;</span>&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;h3&gt;Brand Identity&lt;/h3&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;We craft a memorable brand — from logo design
+to visual guidelines — that tells your story and connects with your ideal
+customers.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;service-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;span class=&quot;service-icon&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#127760;</span>&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;h3&gt;Website Design&lt;/h3&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Beautiful, fast, mobile-friendly websites
+that convert visitors into customers. No technical headaches — we handle
+everything.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;service-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;span class=&quot;service-icon&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#128241;</span>&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;h3&gt;Social Media&lt;/h3&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Consistent, engaging content that builds your
+community and keeps your brand top-of-mind across all the platforms that
+matter.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;service-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;span class=&quot;service-icon&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#128202;</span>&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;h3&gt;Growth Strategy&lt;/h3&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Data-driven plans tailored to your market,
+goals, and budget. We find the growth levers that move the needle for your
+specific business.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;service-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;span class=&quot;service-icon&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#9993;&#65039;</span>&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;h3&gt;Email Marketing&lt;/h3&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Nurture your audience with targeted campaigns
+that turn curious followers into loyal, repeat customers —
+automatically.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;service-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;span class=&quot;service-icon&quot;&gt;<span
+style='font-family:"Segoe UI Emoji",sans-serif'>&#128205;</span>&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;h3&gt;Local SEO&lt;/h3&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Get found by the right customers at the right
+time. We optimize your local presence so people in your area find you
+first.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- ABOUT --&gt;</p>
+
+<p class=MsoNormal>&lt;section class=&quot;about&quot; id=&quot;about&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;about-text&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;section-label&quot;&gt;Our
+Story&lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;h2 class=&quot;section-title&quot;&gt;Built by
+entrepreneurs, for entrepreneurs&lt;/h2&gt;</p>
+
+<p class=MsoNormal>    &lt;p class=&quot;section-sub&quot;&gt;We started Bloom
+&amp; Co. because we saw too many brilliant small businesses struggle to
+compete — not because they weren't good enough, but because they lacked the
+right support.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;about-features&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;feature-item&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div
+class=&quot;feature-dot&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;feature-text&quot;&gt;</p>
+
+<p class=MsoNormal>          &lt;strong&gt;Personalized, not
+templated&lt;/strong&gt;</p>
+
+<p class=MsoNormal>          &lt;span&gt;Every strategy we build is tailor-made
+for your unique business, market, and goals.&lt;/span&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;feature-item&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div
+class=&quot;feature-dot&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;feature-text&quot;&gt;</p>
+
+<p class=MsoNormal>          &lt;strong&gt;Transparent pricing,
+always&lt;/strong&gt;</p>
+
+<p class=MsoNormal>          &lt;span&gt;No hidden fees, no confusing packages.
+You always know what you're paying for and why.&lt;/span&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;feature-item&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div
+class=&quot;feature-dot&quot;&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;feature-text&quot;&gt;</p>
+
+<p class=MsoNormal>          &lt;strong&gt;Real, measurable
+results&lt;/strong&gt;</p>
+
+<p class=MsoNormal>          &lt;span&gt;We track what matters — revenue,
+reach, and ROI — and report back to you clearly every month.&lt;/span&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;about-visual-side&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;about-big-stat&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;big-number&quot;&gt;8&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;big-label&quot;&gt;Years of
+growing&lt;br&gt;small businesses&lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;about-stat-grid&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;about-stat-box&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;num&quot;&gt;200+&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;lbl&quot;&gt;Clients
+worldwide&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;about-stat-box&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;num&quot;&gt;$12M+&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;lbl&quot;&gt;Revenue
+generated&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;about-stat-box&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;num&quot;&gt;42%&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;lbl&quot;&gt;Avg growth
+lift&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;about-stat-box&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;num&quot;&gt;98%&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;lbl&quot;&gt;Client
+retention&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- TESTIMONIALS --&gt;</p>
+
+<p class=MsoNormal>&lt;section class=&quot;testimonials&quot;
+id=&quot;testimonials&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;testi-header&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;section-label&quot;&gt;What Clients
+Say&lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;h2 class=&quot;section-title&quot;&gt;Stories from
+real small businesses&lt;/h2&gt;</p>
+
+<p class=MsoNormal>    &lt;p class=&quot;section-sub&quot;&gt;Don't just take
+our word for it — hear from the owners we've had the privilege to work
+with.&lt;/p&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;testi-grid&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;testi-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;stars&quot;&gt;<span
+style='font-family:"Segoe UI Symbol",sans-serif'>&#9733;&#9733;&#9733;&#9733;&#9733;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div
+class=&quot;testi-quote&quot;&gt;&quot;&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Bloom &amp; Co. completely transformed how
+people perceive our bakery. Our online bookings tripled in the first two
+months, and we finally feel like a professional brand.&lt;/p&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;testi-author&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;author-avatar
+av-green&quot;&gt;SK&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;author-info&quot;&gt;</p>
+
+<p class=MsoNormal>          &lt;strong&gt;Sarah Kimani&lt;/strong&gt;</p>
+
+<p class=MsoNormal>          &lt;span&gt;Owner, The Bread Garden&lt;/span&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;testi-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;stars&quot;&gt;<span
+style='font-family:"Segoe UI Symbol",sans-serif'>&#9733;&#9733;&#9733;&#9733;&#9733;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div
+class=&quot;testi-quote&quot;&gt;&quot;&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;I was skeptical at first, but their local SEO
+work put us on the first page of Google within 90 days. My phone doesn't stop
+ringing. Worth every cent.&lt;/p&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;testi-author&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;author-avatar
+av-gold&quot;&gt;MO&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;author-info&quot;&gt;</p>
+
+<p class=MsoNormal>          &lt;strong&gt;Mike Okonkwo&lt;/strong&gt;</p>
+
+<p class=MsoNormal>          &lt;span&gt;Owner, Okonkwo Plumbing&lt;/span&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;testi-card fade-up&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;stars&quot;&gt;<span
+style='font-family:"Segoe UI Symbol",sans-serif'>&#9733;&#9733;&#9733;&#9733;&#9733;</span>&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;div
+class=&quot;testi-quote&quot;&gt;&quot;&lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Working with Bloom feels like having a whole
+marketing team in your corner. They understand small business struggles and
+genuinely care about your success.&lt;/p&gt;</p>
+
+<p class=MsoNormal>      &lt;div class=&quot;testi-author&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;author-avatar
+av-terra&quot;&gt;LP&lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;author-info&quot;&gt;</p>
+
+<p class=MsoNormal>          &lt;strong&gt;Lerato Phetla&lt;/strong&gt;</p>
+
+<p class=MsoNormal>          &lt;span&gt;Founder, Lerato's
+Boutique&lt;/span&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>      &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- CTA --&gt;</p>
+
+<p class=MsoNormal>&lt;section class=&quot;cta-section&quot;
+id=&quot;contact&quot;&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;cta-box&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;section-label&quot;&gt;Ready to
+grow?&lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;h2&gt;Let's build something great
+together&lt;/h2&gt;</p>
+
+<p class=MsoNormal>    &lt;p&gt;Book a free 30-minute discovery call and find
+out exactly how we can help your business reach its next milestone.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;cta-actions&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;a href=&quot;#&quot;
+class=&quot;btn-cta&quot;&gt;Book a Free Call&lt;/a&gt;</p>
+
+<p class=MsoNormal>      &lt;a href=&quot;mailto:hello@bloomandco.com&quot;
+class=&quot;btn-outline-cream&quot;&gt;Send Us an Email&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;!-- FOOTER --&gt;</p>
+
+<p class=MsoNormal>&lt;footer&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;footer-top&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;footer-brand&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;span
+class=&quot;nav-logo&quot;&gt;Bloom&lt;span&gt;&amp;&lt;/span&gt;Co.&lt;/span&gt;</p>
+
+<p class=MsoNormal>      &lt;p&gt;Helping small businesses grow smarter, look
+better, and reach further — since 2016.&lt;/p&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;footer-col&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;h4&gt;Services&lt;/h4&gt;</p>
+
+<p class=MsoNormal>      &lt;ul&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Brand
+Identity&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Website
+Design&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Social
+Media&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Growth
+Strategy&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Local
+SEO&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>      &lt;/ul&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;footer-col&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;h4&gt;Company&lt;/h4&gt;</p>
+
+<p class=MsoNormal>      &lt;ul&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;About
+Us&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Our
+Work&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a
+href=&quot;#&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a
+href=&quot;#&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>      &lt;/ul&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;div class=&quot;footer-col&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;h4&gt;Contact&lt;/h4&gt;</p>
+
+<p class=MsoNormal>      &lt;ul&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a
+href=&quot;#&quot;&gt;hello@bloomandco.com&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;+27 12 345
+6789&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Limpopo, South
+Africa&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Book a
+Call&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>      &lt;/ul&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;div class=&quot;footer-bottom&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;span&gt;© 2026 Bloom &amp; Co. All rights
+reserved.&lt;/span&gt;</p>
+
+<p class=MsoNormal>    &lt;div style=&quot;display: flex; gap:
+1.5rem;&quot;&gt;</p>
+
+<p class=MsoNormal>      &lt;a href=&quot;#&quot;&gt;Privacy Policy&lt;/a&gt;</p>
+
+<p class=MsoNormal>      &lt;a href=&quot;#&quot;&gt;Terms of Service&lt;/a&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>  &lt;/div&gt;</p>
+
+<p class=MsoNormal>&lt;/footer&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&lt;script&gt;</p>
+
+<p class=MsoNormal>  const observer = new IntersectionObserver((entries) =&gt;
+{</p>
+
+<p class=MsoNormal>    entries.forEach((entry, i) =&gt; {</p>
+
+<p class=MsoNormal>      if (entry.isIntersecting) {</p>
+
+<p class=MsoNormal>        setTimeout(() =&gt;
+entry.target.classList.add('visible'), i * 120);</p>
+
+<p class=MsoNormal>        observer.unobserve(entry.target);</p>
+
+<p class=MsoNormal>      }</p>
+
+<p class=MsoNormal>    });</p>
+
+<p class=MsoNormal>  }, { threshold: 0.1 });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  document.querySelectorAll('.fade-up').forEach(el =&gt;
+observer.observe(el));</p>
+
+<p class=MsoNormal>&lt;/script&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
